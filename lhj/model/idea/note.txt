@@ -1,0 +1,9 @@
+CondConv
+① 修改K值 4 or 8  √
+② stem 和 head 也使用CondConv  x
+③ 1*1也用Condconv
+
+
+从CondConv3开始 直接使用test计算指标
+
+当前best： K=16  只有3*3用condconv

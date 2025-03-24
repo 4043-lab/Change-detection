@@ -1,0 +1,10 @@
+① 残差块中res部分下采样用 3*3 stride=2 or 1*1  √
+② 第三个残差块用3个，满足 1 1 3 1  √
+③ 残差块 + SE or CBAM
+### ④ expansion = 4 or xxx ###
+⑤ stem用2个3*3 or 1个7*7  x
+⑥ kaiming初始化  √
+⑦ 学习率 1e-3 or 1e-4
+⑧ 损失函数 BCE or F
+⑨ 优化器 Adam or AdamW or SGD
+当前： 6
