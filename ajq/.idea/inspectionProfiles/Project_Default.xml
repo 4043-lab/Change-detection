@@ -1,0 +1,77 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="52" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="tqdm" />
+            <item index="1" class="java.lang.String" itemvalue="scipy" />
+            <item index="2" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="3" class="java.lang.String" itemvalue="torch" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="torchvision" />
+            <item index="6" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="7" class="java.lang.String" itemvalue="Pillow" />
+            <item index="8" class="java.lang.String" itemvalue="mock" />
+            <item index="9" class="java.lang.String" itemvalue="json_tricks" />
+            <item index="10" class="java.lang.String" itemvalue="yacs" />
+            <item index="11" class="java.lang.String" itemvalue="shapely" />
+            <item index="12" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="13" class="java.lang.String" itemvalue="tensorboardX" />
+            <item index="14" class="java.lang.String" itemvalue="EasyDict" />
+            <item index="15" class="java.lang.String" itemvalue="Cython" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E221" />
+          <option value="E402" />
+          <option value="E501" />
+          <option value="E262" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N812" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="torch.cuda.FloatTensor" />
+          <option value="torch.cuda.LongTensor" />
+          <option value="bool.unsqueeze" />
+          <option value="direction.Unet_.encoder_name" />
+          <option value="direction.Unet_.encoder_weights" />
+          <option value="direction.Unet_.in_channels" />
+          <option value="direction.Unet_.classes" />
+          <option value="direction.Unet_.siam_encoder" />
+          <option value="direction.Unet_.fusion_form" />
+          <option value="direction.Unet_.model_path" />
+          <option value="prediction.Unet_.encoder_name" />
+          <option value="retinaface.Retinaface.letterbox_image" />
+          <option value="retinaface.Retinaface.retinaface_input_shape" />
+          <option value="retinaface.Retinaface.cuda" />
+          <option value="retinaface.Retinaface.confidence" />
+          <option value="retinaface.Retinaface.facenet_input_shape" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
